@@ -1,9 +1,9 @@
 # README
-## Density Estimation Using Transformed NO2 Data
+## Density Estimation Using Transformed no2 Data
 
 ## Overview
 
-This assignment uses n02 (Nitrogen Dioxide) values from an air quality dataset to estimate the parameters of a probability density function. The task involves transforming the NO2 values using a given formula and then learning the parameters of the density function from the transformed data.
+This assignment uses no2 (Nitrogen Dioxide) values from an air quality dataset to estimate the parameters of a probability density function. The task involves transforming the no2 values using a given formula and then learning the parameters of the density function from the transformed data.
 
 ---
 
@@ -11,13 +11,13 @@ This assignment uses n02 (Nitrogen Dioxide) values from an air quality dataset t
 
 Only one feature from the dataset is used:
 
-- NO2 concentration values
+- no2 concentration values
 
 ---
 
 ## Step 1: Transformation of NO2 Values
 
-Each NO2 value (x) is transformed into a new variable (z) using the following transformation formula:
+Each no2 value (x) is transformed into a new variable (z) using the following transformation formula:
 
 z = x + a × arcsin(b × x)
 
@@ -87,5 +87,6 @@ The estimated parameters obtained from the transformed NO2 data are:
 - Constants a and b were computed using the university roll number.
 - Missing values were removed and valid input range was ensured for transformation.
 - Parameters mu, lambda, and c of the probability density function were successfully estimated.
+
 
 
